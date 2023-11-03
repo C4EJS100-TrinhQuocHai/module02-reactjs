@@ -1,12 +1,20 @@
-import React from 'react'
-import ListBook from './components/ListBook';
-
-export default function App() {
-  let data=["sách1","sách 2"];
-  return (
-    <>
-      <ListBook></ListBook>
-
-    </>
-  )
+import React, { Component } from 'react'
+import ListTodo from './components/ListTodo'
+export default class App extends Component {
+  constructor(){
+    super()
+    this.state={
+      todos:["coffee","go to bed","learn reactjs"],
+    }
+  }
+  render() {
+    return (
+      <>
+        <input type="text" />
+        <button>add</button>
+        <ListTodo data={this.state.todos}></ListTodo>
+      </>
+    )
+  }
 }
+
