@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react'
+import React, { useCallback, useMemo, useState } from 'react'
 import Header from './component/Header'
 import UseID from './component/UseID';
 import UseCallback from './component/UseCallback';
@@ -62,9 +62,11 @@ export default function App() {
           setName("");
           setProduct("");
     }
-    const handleCallback=()=>{
+    const handleCallback=useCallback(()=>{
+  
       console.log("callback");
-    }
+      
+    },[])
   return (
     <div>
       <Header count1={count}></Header>
