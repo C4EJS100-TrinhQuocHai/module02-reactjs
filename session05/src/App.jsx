@@ -3,7 +3,7 @@ import UseState from './components/UseState'
 import UseEffect from './components/UseEffect'
 import UseRef from './components/UseRef'
 import UseReducer from './components/UseReducer'
-import Child from './components/Child'
+
 
 export default function App() {
   return (
@@ -13,7 +13,8 @@ export default function App() {
       <UseEffect></UseEffect>
       <UseRef></UseRef>
       <UseReducer></UseReducer>
-      <Child name="mai"  age={25}></Child>
+     
+      <p></p>
     </>
   )
 }
