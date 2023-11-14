@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "name": "hoang",
+      "email": "trinhquochai12@gmail.com",
+      "password": "1",
+      "id": 1
+    }
+  ],
+  "products":[
+      {
+          "id": 111,
+          "name": "iphone",
+          "product": [
+              {
+                  "id": 123,
+                  "name": "iphone 16",
+                  "price": 5000
+              }
+          ]
+      },
+      {
+          "id": 222,
+          "name": "samsung",
+          "product": [
+              {
+                  "id": 211,
+                  "name": "samsung1280",
+                  "price": 15000
+              },
+              {
+                  "id": 212,
+                  "name": "simsamsung1281",
+                  "price": 25000
+              }
+          ]
+      }
+  ]
+}

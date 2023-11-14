@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login{
+    width: 400px;
+    margin: 0 auto;
+    .login--input{
+        width: 100%;
+        outline: none;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid black;
+        margin: 5px;
+    }
+    .login__name{
+      
+    }
+    .login__email{
+
+    }
+}
+
