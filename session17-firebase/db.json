@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iphone",
+      "image": "https://www.shutterstock.com/image-illustration/cute-little-bear-cub-sitting-600nw-2199715417.jpg"
+    },
+    {
+      "name": "gấu",
+      "image": "https://firebasestorage.googleapis.com/v0/b/js09-feadc.appspot.com/o/images%2Fanimal5.jpg?alt=media&token=263b5e1d-6bad-4c4e-8aed-a79637b882aa",
+      "id": 2
+    },
+    {
+      "name": "nộc",
+      "image": "https://firebasestorage.googleapis.com/v0/b/js09-feadc.appspot.com/o/images%2Fanimal3.jpg?alt=media&token=9d5185e4-313d-4963-b76b-95ecf0fbf0cb",
+      "id": 3
+    },
+    {
+      "name": "nộc",
+      "image": "https://firebasestorage.googleapis.com/v0/b/js09-feadc.appspot.com/o/images%2Fanimal3.jpg?alt=media&token=a16e4797-b9fa-4c48-a12c-7b2c0d620565",
+      "id": 4
+    }
+  ]
+}
