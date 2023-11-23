@@ -34,7 +34,7 @@ export default function () {
   // const imagesListRef = ref(storage, "images/");
   return (
    <>
-      <h1>firebase </h1>
+      <h1>firebase1 </h1>
       <label htmlFor="">Name</label>
       <input
         onChange={(e)=>setProductName(e.target.value)}
